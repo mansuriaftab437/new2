@@ -1,0 +1,115 @@
+*{margin: 0px; padding: 0px;
+    box-sizing: border-box;}
+
+    body{
+        
+        background-image: none;
+        background-repeat: no-repeat;
+        background-size: auto;
+        user-select: contain;
+        background-color: black;
+        background-size: cover;
+        background-attachment: fixed;
+        overflow-x: hidden;
+    
+    }
+
+
+nav ul{
+    float: right;   
+    margin-right: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 2px;
+}
+
+nav ul li a{
+    color: rgb(224, 229, 235);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+    text-decoration: none;
+
+}
+
+a.active,a:hover{
+    background-color: #745129;
+    transition: .2s;
+}
+
+
+.jay{
+  
+  transform: translate(56px,105px);
+  border: 2px rgb(83, 29, 170) solid;
+  border-radius: 10px;
+
+
+}
+.veru{
+
+transform: translate(951px,102px);
+border-radius: 10px;
+}
+
+.basanti{
+
+  transform: translate(53px ,101px);
+  border-radius: 10px;
+
+}
+
+.sambha{
+
+    transform: translate(960px , 100px);
+    border-radius: 10px;
+
+}
+
+#full1 {
+    color: rgb(80, 145, 170);
+    transform: translate(400px,-67px);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#full2 {
+    color: rgb(223, 94, 19);
+    transform: translate(48px,-64px);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#full3{
+    color: rgb(37, 202, 112);
+    transform: translate(443px,-42px);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+#full4{
+    color: rgb(152, 214, 37);
+    transform: translate(70px,-30px);
+    font-size: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    overflow: hidden;
+    border-style: inset;
+    border-width: 1px;
+}

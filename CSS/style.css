@@ -1,0 +1,157 @@
+*{margin: 0px; padding: 0px;
+box-sizing: border-box;}
+
+body {font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+background-image: url("/media/phone-table-abstract-office-white.jpg");
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+overflow-x: hidden;
+
+}
+@media screen and  (min-width: 375px){
+    .container{
+        display: flex;
+    
+    }
+    .header{
+        text-overflow: unset;
+    }
+}
+
+
+.container {
+max-width: 960px;
+margin: 50px auto ;
+padding: 2em;
+}
+
+header {
+    background-color: #745129;
+    color: white;
+    text-align: center;
+    padding: 0px 0;
+    box-sizing: border-box;
+    }
+  
+    
+    nav ul{
+        float: right;   
+        margin-right: 0px;
+        ;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        line-height: 140px;
+        margin: 0 10px;
+    }
+    
+    nav ul li a{
+        color: rgb(248, 240, 229);
+        font-size: 17px;
+        padding: 7px 5px;
+        border-radius: 10px;
+        text-transform: uppercase;
+        text-decoration: none;
+        border: #fff8f8 solid 2px
+    
+    
+    }
+    
+    a.active,a:hover{
+        background-color: #745129;
+        transition: .3s;
+    }
+    
+
+.main-content {
+background-color: rgb(245, 235, 235);
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+margin-top: 30px;
+margin-left: 170px;
+}
+
+img{
+border: 1px solid black;
+border-radius: 100px;
+margin: 100px 100px ;
+position: absolute;
+left: 1165px;
+top: -58px;
+}
+
+
+image{
+    margin: auto;
+    margin-top: auto;
+}
+
+ .copyright{
+background-color: #745129;
+ text-align: center;
+margin-top: -17px;
+margin-right: 0px;
+font-size: 15px;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.footer{
+
+    display: flex;
+    justify-content: left;
+    margin-top: 248px;
+
+    
+}
+
+.uncle{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(229, 236, 236);
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 1px 2px 1px 1px;
+    font-size: 20px;
+    line-height: 40px;
+
+
+}
+.uncle ,#aunty{
+transition: all 0.3s linear;
+
+}
+.uncle:hover #aunty{
+    transform: scale(1.2);
+     
+}
+
+.uncle:hover{
+    background-color: #fff8f8;
+    transition: 0.5s;
+}
+.fa-instagram
+{ color: #e84393;
+
+}
+.fa-facebook
+{
+
+color: rgb(80, 109, 238);
+}
+
+.fa-twitter{
+    color: #0097e6;
+
+
+}
+.fa-linkedin{
+    color: #0097e6;
+
+}

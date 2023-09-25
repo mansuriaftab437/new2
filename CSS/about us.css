@@ -1,0 +1,104 @@
+*{margin: 0px; padding: 0px;
+    box-sizing: border-box;}
+
+    body{
+        background-image: url(/media/IMG_20221004_114530.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    
+ }
+ 
+h1{
+    animation-direction: alternate;
+    animation-duration: 5s;
+}
+
+header {
+background-color: #745129;
+color: white;
+text-align: center;
+padding: 10px 0;
+box-sizing: border-box;
+}
+
+
+nav ul{
+    float: right;   
+    margin-right: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 2px;
+}
+
+nav ul li a{
+    color: rgb(35, 108, 197);
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+a.active,a:hover{
+    background-color: #221e1d;
+    transition: .2s;
+}
+
+.footer{
+margin-top: 310px; 
+background-color: #745129;
+text-align: center;
+
+}
+.Aftab{
+    
+    text-decoration: none;
+    color: rgb(17, 5, 5);
+    padding: 8px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+    
+    
+}
+
+.Aftab:hover{
+    background-color: rgb(101, 187, 101);
+    transition: .0s;
+    border-radius: 20px;
+}
+
+.Affu{
+    
+    text-decoration: none;
+    color: rgb(17, 5, 5);
+    padding: 8px;
+    float: left;
+    margin-top: 150px;
+    margin-left: 100px;
+    border:2px solid black;
+    border-radius:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+    
+    
+}
+
+.Affu:hover{
+    background-color: rgb(101, 187, 101);
+    transition: .0s;
+    border-radius: 20px;
+
+
+}
